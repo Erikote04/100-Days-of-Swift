@@ -13,6 +13,7 @@
 		BB7C57FC2BE10E0F003BE9EE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BB7C57FB2BE10E0F003BE9EE /* Base */; };
 		BB7C57FE2BE10E10003BE9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7C57FD2BE10E10003BE9EE /* Assets.xcassets */; };
 		BB7C58012BE10E10003BE9EE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BB7C58002BE10E10003BE9EE /* Base */; };
+		BB7C58092BE10FFF003BE9EE /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB7C58082BE10FFF003BE9EE /* start.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BB7C57FD2BE10E10003BE9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB7C58002BE10E10003BE9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB7C58022BE10E10003BE9EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB7C58082BE10FFF003BE9EE /* start.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,9 @@
 				BB7C57F62BE10E0F003BE9EE /* SceneDelegate.swift */,
 				BB7C57F82BE10E0F003BE9EE /* ViewController.swift */,
 				BB7C57FA2BE10E0F003BE9EE /* Main.storyboard */,
-				BB7C57FD2BE10E10003BE9EE /* Assets.xcassets */,
 				BB7C57FF2BE10E10003BE9EE /* LaunchScreen.storyboard */,
+				BB7C58082BE10FFF003BE9EE /* start.txt */,
+				BB7C57FD2BE10E10003BE9EE /* Assets.xcassets */,
 				BB7C58022BE10E10003BE9EE /* Info.plist */,
 			);
 			path = "Project-5";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB7C57FE2BE10E10003BE9EE /* Assets.xcassets in Resources */,
+				BB7C58092BE10FFF003BE9EE /* start.txt in Resources */,
 				BB7C58012BE10E10003BE9EE /* Base in Resources */,
 				BB7C57FC2BE10E0F003BE9EE /* Base in Resources */,
 			);
