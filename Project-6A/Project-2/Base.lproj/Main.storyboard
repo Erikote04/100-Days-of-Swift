@@ -18,6 +18,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZd-Iu-wOx">
                                 <rect key="frame" x="84.666666666666686" y="100" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vZd-Iu-wOx" secondAttribute="height" multiplier="112:57" id="JKH-2e-dhS"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -25,7 +28,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNA-F3-NIk">
-                                <rect key="frame" x="84.666666666666686" y="244" width="224" height="114"/>
+                                <rect key="frame" x="84.666666666666686" y="244" width="223.99999999999994" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xNA-F3-NIk" secondAttribute="height" multiplier="112:57" id="KE9-T6-lqE"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -33,7 +39,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vgs-bj-sGr">
-                                <rect key="frame" x="84.666666666666686" y="388" width="224" height="114"/>
+                                <rect key="frame" x="84.666666666666686" y="388" width="223.99999999999994" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Vgs-bj-sGr" secondAttribute="height" multiplier="112:57" id="xCd-74-V4v"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="us"/>
                                 <connections>
@@ -47,9 +56,12 @@
                             <constraint firstItem="Vgs-bj-sGr" firstAttribute="centerX" secondItem="xNA-F3-NIk" secondAttribute="centerX" id="38I-4e-Dsk"/>
                             <constraint firstItem="xNA-F3-NIk" firstAttribute="top" secondItem="vZd-Iu-wOx" secondAttribute="bottom" constant="30" id="4SI-Si-ege"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="vZd-Iu-wOx" secondAttribute="top" constant="3" id="5Vk-j5-KMC"/>
+                            <constraint firstItem="Vgs-bj-sGr" firstAttribute="height" secondItem="xNA-F3-NIk" secondAttribute="height" id="Joa-qE-JdO"/>
                             <constraint firstItem="Vgs-bj-sGr" firstAttribute="top" secondItem="xNA-F3-NIk" secondAttribute="bottom" constant="30" id="ZcX-CK-eIb"/>
                             <constraint firstItem="vZd-Iu-wOx" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="i3n-7b-XtB"/>
                             <constraint firstItem="xNA-F3-NIk" firstAttribute="centerX" secondItem="vZd-Iu-wOx" secondAttribute="centerX" id="jl4-kw-2L4"/>
+                            <constraint firstItem="xNA-F3-NIk" firstAttribute="height" secondItem="vZd-Iu-wOx" secondAttribute="height" id="twE-8R-U6c"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="Vgs-bj-sGr" secondAttribute="bottom" constant="20" id="wb8-r4-cTU"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="LMD-YY-MMA"/>
