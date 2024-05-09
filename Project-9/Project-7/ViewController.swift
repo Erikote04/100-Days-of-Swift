@@ -1,7 +1,7 @@
 import UIKit
 
 class ViewController: UITableViewController {
-
+    
     var petitions = [Petition]()
     
     override func viewDidLoad() {
@@ -22,9 +22,9 @@ class ViewController: UITableViewController {
                     return
                 }
             }
+            
+            self?.showError()
         }
-        
-        showError()
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -52,19 +52,25 @@ class ViewController: UITableViewController {
         
         if let jsonPetitions = try? decoder.decode(Petitions.self, from: json) {
             petitions = jsonPetitions.results
-            tableView.reloadData()
+            
+            DispatchQueue.main.async { [weak self] in
+                self?.tableView.reloadData()
+            }
+            
         }
     }
     
     func showError() {
-        let ac = UIAlertController(
-            title: "Error",
-            message: "There was a problem loading the feed, please check your connection an try again",
-            preferredStyle: .alert
-        )
-        
-        ac.addAction(UIAlertAction(title: "OK", style: .destructive))
-        present(ac, animated: true)
+        DispatchQueue.main.async { [weak self] in
+            let ac = UIAlertController(
+                title: "Error",
+                message: "There was a problem loading the feed, please check your connection an try again",
+                preferredStyle: .alert
+            )
+            
+            ac.addAction(UIAlertAction(title: "OK", style: .destructive))
+            self?.present(ac, animated: true)
+        }
     }
 }
 
