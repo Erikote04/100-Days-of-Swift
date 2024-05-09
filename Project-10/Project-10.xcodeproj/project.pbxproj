@@ -13,6 +13,7 @@
 		BB3945FC2BECF40500D7ADEC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BB3945FB2BECF40500D7ADEC /* Base */; };
 		BB3945FE2BECF40600D7ADEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3945FD2BECF40600D7ADEC /* Assets.xcassets */; };
 		BB3946012BECF40600D7ADEC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BB3946002BECF40600D7ADEC /* Base */; };
+		BB3946092BECF6E800D7ADEC /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3946082BECF6E800D7ADEC /* PersonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BB3945FD2BECF40600D7ADEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB3946002BECF40600D7ADEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB3946022BECF40600D7ADEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB3946082BECF6E800D7ADEC /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,10 @@
 				BB3945F42BECF40500D7ADEC /* AppDelegate.swift */,
 				BB3945F62BECF40500D7ADEC /* SceneDelegate.swift */,
 				BB3945F82BECF40500D7ADEC /* ViewController.swift */,
+				BB3946082BECF6E800D7ADEC /* PersonCell.swift */,
 				BB3945FA2BECF40500D7ADEC /* Main.storyboard */,
-				BB3945FD2BECF40600D7ADEC /* Assets.xcassets */,
 				BB3945FF2BECF40600D7ADEC /* LaunchScreen.storyboard */,
+				BB3945FD2BECF40600D7ADEC /* Assets.xcassets */,
 				BB3946022BECF40600D7ADEC /* Info.plist */,
 			);
 			path = "Project-10";
@@ -141,6 +144,7 @@
 				BB3945F92BECF40500D7ADEC /* ViewController.swift in Sources */,
 				BB3945F52BECF40500D7ADEC /* AppDelegate.swift in Sources */,
 				BB3945F72BECF40500D7ADEC /* SceneDelegate.swift in Sources */,
+				BB3946092BECF6E800D7ADEC /* PersonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
