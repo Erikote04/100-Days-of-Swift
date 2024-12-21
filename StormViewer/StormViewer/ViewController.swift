@@ -50,6 +50,8 @@ extension ViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = self.storyboard?.instantiateViewController(withIdentifier: "Detail") as? DetailViewController {
             vc.selectedImage = pictures[indexPath.row]
+            vc.selectedImageIndex = indexPath.row
+            vc.totalImages = pictures.count
             navigationController?.pushViewController(vc, animated: true)
         }
     }
