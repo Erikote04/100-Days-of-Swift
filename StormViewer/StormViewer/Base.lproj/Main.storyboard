@@ -49,7 +49,7 @@
         <!--Detail View Controller-->
         <scene sceneID="UFN-hD-myb">
             <objects>
-                <viewController storyboardIdentifier="Detail" id="hOC-hC-xnT" customClass="DetailViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Detail" id="hOC-hC-xnT" customClass="DetailViewController" customModule="StormViewer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="g8t-tb-9EL">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
