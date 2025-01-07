@@ -86,16 +86,20 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: UIButton) {
         var title: String
+        var message: String
+        let selectedCountry = countries[sender.tag]
         
         if sender.tag == correctAnswer {
-            title = "Correct!"
             score += 1
+            title = "Correct!"
+            message = "Your score is \(score)."
         } else {
-            title = "Wrong!"
             score -= 1
+            title = "Wrong!"
+            message = "That's the flag of \(selectedCountry.uppercased()). Your score is \(score)."
         }
         
-        let ac = UIAlertController(title: title, message: "Your score is \(score)", preferredStyle: .alert)
+        let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
         present(ac, animated: true)
     }
